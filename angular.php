@@ -14,7 +14,7 @@
 	<input type="text" ng-model="busca">
 	<ul>
 		<li ng-repeat="(key, tarefa) in tarefas | filter: busca | orderBy: 'nome': false | limitTo:20"> 
-			{{tarefa.nome}} - {{tarefa.prioridade}}
+			=> {{tarefa.nome}} - {{tarefa.prioridade}}
 			<a href="" ng-click="delete(key)">Excluir</a>
 		</li>		
 	</ul>
