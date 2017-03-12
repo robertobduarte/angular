@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Angulas JS</title>
+	
+	<link rel="stylesheet" href="css/style.css">
 
 	<script src="js/angular.js"></script>
 	<script src="js/controller.js"></script>
